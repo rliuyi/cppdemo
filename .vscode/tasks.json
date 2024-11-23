@@ -5,6 +5,8 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
+                "-fprofile-arcs",
+                "-ftest-coverage",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",

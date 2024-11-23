@@ -25,6 +25,7 @@
 *   C/C++
 *   CMake
 *   CMake Tools
+*   Coverage Gtters
 
 ### 编译构建
 
@@ -33,6 +34,6 @@
 ### 运行单元测试用例
 
 *   `cd build\tests`
-*   Run `ctest`
+*   Run `ctest -V`
 
 

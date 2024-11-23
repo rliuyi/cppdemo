@@ -4,6 +4,15 @@ project(MyCppProject)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+message(STATUS "C++ Compiler ID: ${CMAKE_CXX_COMPILER_ID}")
+
+if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU" OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+    message(STATUS "add coverage")
+    add_compile_options(--coverage)
+    add_link_options(--coverage)
+endif()
+
+
 # 添加子目录
 add_subdirectory(src)
 add_subdirectory(tests)
