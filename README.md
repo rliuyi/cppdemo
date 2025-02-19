@@ -18,7 +18,7 @@
 
 *   如果安装了 Windows 包管理器 
 [https://chocolatey.org/](https://chocolatey.org/).
-则运行命令 `choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System`, 该命令在安装完 cmake 后，会直接将其加入环境变量。
+则运行命令 `choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'`, 该命令在安装完 cmake 后，会直接将其加入环境变量。
 
 #### VSCode 上安装的插件
 
